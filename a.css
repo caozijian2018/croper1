@@ -1,0 +1,260 @@
+.width_49 {
+  width: 49%;
+}
+.button_desc {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  font-weight: 800;
+  font-size: 20px;
+  border-radius: 20px;
+  background: red;
+  margin: 10px auto;
+}
+.template_name {
+  color: red;
+}
+.overbox {
+  height: 325px;
+}
+body {
+  background: #fff3d1;
+}
+.head .head_tet {
+  color: #ea0301;
+  font-size: 30px;
+}
+.head .aa {
+  font-size: 34px;
+  color: black;
+}
+.red {
+  color: #ea0301;
+  font-size: 30px;
+}
+.margin_top_10 {
+  margin-top: 10px;
+}
+#box {
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  position: absolute;
+}
+#scale {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  cursor: se-resize;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: #7abfee;
+}
+.margin_top_30 {
+  margin-top: 30px;
+}
+.width_70 {
+  width: 70%;
+}
+.tempalte_img {
+  transition-duration: 0.5s;
+  padding: 4px;
+  border: 4px solid transparent;
+}
+.tempalte_img.selected {
+  border: 4px solid #409eff;
+  border-radius: 4px;
+}
+.bbbx span {
+  display: inline-block;
+  width: 90px;
+}
+.bbbx > div {
+  align-items: center;
+  display: flex;
+}
+.img_b_box {
+  font-family: "方正兰亭";
+  transform-origin: 0% 0%;
+  transform: scale(0.65);
+  background-size: 500px;
+  width: 500px;
+  height: 500px;
+  border: 1px solid gray;
+  margin: 10px auto;
+  position: relative;
+}
+.img_b_box span {
+  position: absolute;
+  z-index: 3;
+}
+.img_b_box .z_index_2 {
+  z-index: -2;
+}
+.img_b_box .template_img {
+  width: 100%;
+}
+.img_b_box .logo_img {
+  position: absolute;
+  width: 58px;
+}
+.img_b_box .main_img {
+  width: 100%;
+  height: 100%;
+  cursor: move;
+}
+.img_b_box .main_img_pc {
+  z-index: 1;
+  width: 500px;
+  transform: translate(-50%, -50%);
+}
+.template_1 .add_text {
+  position: absolute;
+  left: 50%;
+  font-family: "方正兰亭粗黑";
+  font-size: 150px;
+  top: 50%;
+  z-index: 10001;
+  transition: 0.4s;
+  transform: translate(-50%, -50%);
+}
+.template_1 .space_name {
+  font-family: "方正兰亭粗黑";
+  font-size: 26px;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+.template_1 .space_name_2 {
+  font-size: 26px;
+  font-weight: 800;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-family: "方正兰亭";
+}
+.template_1 .time_desc {
+  font-size: 18px;
+  color: white;
+  font-family: "方正兰亭粗黑";
+}
+.template_1 .price_desc {
+  font-size: 18px;
+  color: white;
+}
+.template_1 .real_price_desc {
+  font-family: "impact111";
+  color: #fff100;
+  font-weight: 800;
+  font-style: italic;
+  transform: translate(-50%, -50%);
+}
+.template_1 .text4priec {
+  font-size: 86px;
+}
+.template_1 .text3price {
+  font-size: 105px;
+}
+.template_1 .price_type_desc {
+  font-family: "方正兰亭粗黑";
+  font-size: 24px;
+  color: #fff100;
+}
+.template_2 .space_name {
+  font-size: 23px;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-family: "方正兰亭粗黑";
+  width: 160px;
+  text-align: center;
+  font-weight: 800;
+  line-height: 26px;
+}
+.template_2 .time_desc {
+  font-size: 14px;
+  color: white;
+  color: tomato;
+  font-weight: 500;
+}
+.template_2 .price_desc {
+  font-size: 18px;
+  font-family: "方正兰亭粗黑";
+  font-weight: 800;
+  width: 121px;
+  color: #da3130;
+}
+.template_2 .real_price_desc {
+  font-family: "impact111";
+  color: #d41616;
+  font-weight: 800;
+  transform: translate(-50%, -50%);
+}
+.template_2 .text4priec {
+  font-size: 54px;
+}
+.template_2 .text3price {
+  font-size: 68px;
+}
+.template_2 .price_type_desc {
+  font-size: 17px;
+  color: black;
+  font-weight: 500;
+  font-family: "方正兰亭粗黑";
+}
+.template_3 .space_name {
+  font-size: 40px;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-family: "方正兰亭粗黑";
+  width: 160px;
+  text-align: center;
+  font-weight: 800;
+  line-height: 26px;
+}
+.template_3 .time_desc {
+  font-size: 24px;
+  color: yellow;
+  width: max-content;
+  font-weight: 500;
+  transform: translate(-50%, -50%);
+}
+.template_3 .price_desc {
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+.template_3 .notransform {
+  transform: none;
+}
+.template_3 .real_price_desc {
+  font-family: "impact111";
+  color: white;
+  font-weight: 800;
+  transform: translate(-50%, -50%);
+}
+.template_3 .ms_jia {
+  font-weight: 800;
+  transform: translate(-50%, -50%);
+  color: yellow;
+  font-family: "方正兰亭粗黑";
+  font-size: 40px;
+}
+.template_3 .text4priec {
+  font-size: 121px;
+}
+.template_3 .text3price {
+  font-size: 160px;
+}
+.template_3 .price_type_desc {
+  font-size: 24px;
+  color: white;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  font-family: "方正兰亭粗黑";
+}
+.margin_bottom_20 {
+  margin-bottom: 20px;
+}

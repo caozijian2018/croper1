@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "方正兰亭";
+    src: url("./fzlt.ttf");
+    font-weight: normal;
+    font-style: bold;
+}
+@font-face {
+    font-family: "方正兰亭粗黑";
+    src: url("./fzltch.ttf");
+    font-weight: normal;
+    font-style: bold;
+}
+@font-face {
+    font-family: "impact111";
+    src: url("./impact.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+

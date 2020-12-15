@@ -1,0 +1,1 @@
+exports.ids=[3],exports.modules={82:function(t,e,c){"use strict";c.r(e);var n={},r=c(1);var component=Object(r.a)(n,(function(){var t=this.$createElement,e=this._self._c||t;return e("div",{staticClass:"cate_box",staticStyle:{"padding-bottom":"30px"}},[e("nuxt-child")],1)}),[],!1,(function(t){}),null,"5a134af8");e.default=component.exports}};

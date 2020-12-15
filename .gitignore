@@ -1,0 +1,13 @@
+*.pyc
+*.log
+*.log.*
+*.swp
+*.bak
+*.db
+*~
+.DS_Store
+.coverage
+.idea/
+.vscode/
+.virtualenv/
+node_modules/

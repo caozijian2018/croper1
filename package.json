@@ -1,0 +1,35 @@
+{
+  "name": "caoyao",
+  "version": "1.0.0",
+  "description": "game",
+  "author": "caoyao",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3032"
+    }
+  },
+  "scripts": {
+    "dev": "NODE_ENV=dev nuxt --open",
+    "build": "NODE_ENV=prod nuxt build",
+    "build_dev_online": "NODE_ENV=dev_online nuxt build",
+    "start": "nuxt start",
+    "generate": "NODE_ENV=prod nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/component-cache": "^1.1.5",
+    "ant-design-vue": "^1.1.10",
+    "cropit": "^0.5.1",
+    "element-ui": "^2.13.0",
+    "html2canvas": "^1.0.0-rc.7",
+    "jquery": "^3.4.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "nuxt": "^2.0.0",
+    "vue-cropper": "^0.5.5",
+    "vue-i18n": "^8.15.1"
+  },
+  "devDependencies": {}
+}
